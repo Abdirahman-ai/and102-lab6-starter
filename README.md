@@ -2,4 +2,4 @@
 
 Here's a walkthrough of implemented user stories:
 
-<img src='https://github.com/Abdirahman-ai/AND102-Project05/blob/master/Kapture%202024-03-31%20at%2000.22.31.gif' title='Video Walkthrough' width='250' alt='Video Walkthrough' />
+<img src='https://github.com/Abdirahman-ai/and102-lab6-starter/blob/main/Kapture%202024-04-03%20at%2016.30.33.gif' title='Video Walkthrough' width='250' alt='Video Walkthrough' />
