@@ -30,5 +30,15 @@ class MainActivity : AppCompatActivity() {
         binding = ActivityMainBinding.inflate(layoutInflater)
         val view = binding.root
         setContentView(view)
+
+        // Call helper method to swap the FrameLayout with the fragment
+        replaceFragment(ArticleListFragment())
+    }
+
+    private fun replaceFragment(articleListFragment: ArticleListFragment) {
+        val fragmentManager = supportFragmentManager
+        val fragmentTransaction = fragmentManager.beginTransaction()
+        fragmentTransaction.replace(R.id.article_frame_layout, articleListFragment)
+        fragmentTransaction.commit()
     }
 }
